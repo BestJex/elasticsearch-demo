@@ -3,6 +3,14 @@ springBoot 整合 elasticsearch 的 demo,需要继承ElasticsearchRepository即�
 
 测试代码在test文件夹内
 
+#### 环境
+
+java 1.8
+
+springBoot 2.2.5.RELEASE
+
+elasticsearch 7.7.0
+
 
 #### 自定义分词器myanalyzer
 
