@@ -1,5 +1,5 @@
 ### elasticsearch-demo
-springBoot 整合 elasticsearch 的 demo,需要继承ElasticsearchRepository即可，与JpaRepository相似，里面封装好了基本的CRUD操作方法。以及findByContentLike()也跟jpa的用法相似。
+springBoot 整合 elasticsearch 的 demo,继承 ElasticsearchRepository 即可，与 JpaRepository 用法相似，里面封装好了基本的CRUD操作方法。以及 findByContentLike() 也跟 JpaRepository 的用法相似。
 
 测试代码在test文件夹内
 

@@ -2,24 +2,18 @@ package com.jex.elasticsearch;
 
 
 import com.jex.elasticsearch.dao.BlogRepository;
-import com.jex.elasticsearch.dao.RequestLogRepository;
 import com.jex.elasticsearch.entity.Blog;
-import com.jex.elasticsearch.entity.RequestLog;
-import org.elasticsearch.index.query.QueryBuilder;
-import org.elasticsearch.index.query.QueryBuilders;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.annotation.Resource;
-import java.util.ArrayList;
+
 import java.util.Date;
-import java.util.Iterator;
-import java.util.List;
+
 
 /**
  * 
